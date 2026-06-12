@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetOrders" targetNamespace="http://tempuri.org/DataSetOrders.xsd" xmlns:mstns="http://tempuri.org/DataSetOrders.xsd" xmlns="http://tempuri.org/DataSetOrders.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetOrders" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSetOrders" msprop:Generator_DataSetName="DataSetOrders" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Orders" msprop:Generator_UserTableName="Orders" msprop:Generator_RowDeletedName="OrdersRowDeleted" msprop:Generator_RowChangedName="OrdersRowChanged" msprop:Generator_RowClassName="OrdersRow" msprop:Generator_RowChangingName="OrdersRowChanging" msprop:Generator_RowEvArgName="OrdersRowChangeEvent" msprop:Generator_RowEvHandlerName="OrdersRowChangeEventHandler" msprop:Generator_TableClassName="OrdersDataTable" msprop:Generator_TableVarName="tableOrders" msprop:Generator_RowDeletingName="OrdersRowDeleting" msprop:Generator_TablePropName="Orders">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Orderno" msprop:Generator_UserColumnName="Orderno" msprop:Generator_ColumnVarNameInTable="columnOrderno" msprop:Generator_ColumnPropNameInRow="Orderno" msprop:Generator_ColumnPropNameInTable="OrdernoColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Order_Side" msprop:Generator_UserColumnName="Order_Side" msprop:Generator_ColumnVarNameInTable="columnOrder_Side" msprop:Generator_ColumnPropNameInRow="Order_Side" msprop:Generator_ColumnPropNameInTable="Order_SideColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="StockCode" msprop:Generator_UserColumnName="StockCode" msprop:Generator_ColumnVarNameInTable="columnStockCode" msprop:Generator_ColumnPropNameInRow="StockCode" msprop:Generator_ColumnPropNameInTable="StockCodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Order_Price" msprop:Generator_UserColumnName="Order_Price" msprop:Generator_ColumnVarNameInTable="columnOrder_Price" msprop:Generator_ColumnPropNameInRow="Order_Price" msprop:Generator_ColumnPropNameInTable="Order_PriceColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Order_Qty" msprop:Generator_UserColumnName="Order_Qty" msprop:Generator_ColumnVarNameInTable="columnOrder_Qty" msprop:Generator_ColumnPropNameInRow="Order_Qty" msprop:Generator_ColumnPropNameInTable="Order_QtyColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Filled_Qty" msprop:Generator_UserColumnName="Filled_Qty" msprop:Generator_ColumnVarNameInTable="columnFilled_Qty" msprop:Generator_ColumnPropNameInRow="Filled_Qty" msprop:Generator_ColumnPropNameInTable="Filled_QtyColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Outstanding_Qty" msprop:Generator_UserColumnName="Outstanding_Qty" msprop:Generator_ColumnVarNameInTable="columnOutstanding_Qty" msprop:Generator_ColumnPropNameInRow="Outstanding_Qty" msprop:Generator_ColumnPropNameInTable="Outstanding_QtyColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="OrderStatus" msprop:Generator_UserColumnName="OrderStatus" msprop:Generator_ColumnVarNameInTable="columnOrderStatus" msprop:Generator_ColumnPropNameInRow="OrderStatus" msprop:Generator_ColumnPropNameInTable="OrderStatusColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
