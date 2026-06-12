@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="buttonDCdtClassDescWeb.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDCdtClassDescWeb.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelValueDAvlCdt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 140</value>
+  </data>
+  <data name="labelValueDAvlCdt.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueDAvlCdt.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDAvlCdt.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDAvlCdt.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueDAcpMarketValue.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueDAcpMarketValue.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueDMarketValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 105</value>
+  </data>
+  <data name="labelValueDMarketValue.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueDMarketValue.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDAcpMarketValue.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDAcpMarketValue.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDMarketValue.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDMarketValue.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueDTotalStock.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueDTotalStock.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueDSellQ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueDSellQ.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDTotalStock.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDTotalStock.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDSellQ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDSellQ.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueDCreditLimit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueDCreditLimit.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDCreditLimit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDCreditLimit.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueDCreditIdx.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueDCreditIdx.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDCreditIdx.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDCreditIdx.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueDMarginCall.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueDMarginCall.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueDFundHold.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueDFundHold.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDMarginCall.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDMarginCall.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDFundHold.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDFundHold.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueDUCA.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueDUCA.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueDInt.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueDInt.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDUCA.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDUCA.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDInt.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDInt.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueDOutT2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueDOutT2.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueDOutT1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueDOutT1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDOutT2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDOutT2.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDOutT1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDOutT1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueDOutT0.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueDOutT0.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDOutT0.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDOutT0.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueDBalT2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueDBalT2.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueDBalT1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueDBalT1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDBalT2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDBalT2.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDBalT1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDBalT1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueDBalT0.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueDBalT0.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDBalT0.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDBalT0.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panelDBalance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 74</value>
+  </data>
+  <data name="panelDBalance.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panelDBalance.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonSCdtClassDescWeb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 39</value>
+  </data>
+  <data name="buttonSCdtClassDescWeb.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonSCdtClassDescWeb.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelSCreditClass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 40</value>
+  </data>
+  <data name="labelSCreditClass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 15</value>
+  </data>
+  <data name="labelSCreditClass.Text" xml:space="preserve">
+    <value>額度種類</value>
+  </data>
+  <data name="labelSCreditClass.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelSCreditClass.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueSAvlCdt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 40</value>
+  </data>
+  <data name="labelValueSAvlCdt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 15</value>
+  </data>
+  <data name="labelValueSAvlCdt.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueSAvlCdt.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelSAvlCdt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 41</value>
+  </data>
+  <data name="labelSAvlCdt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 17</value>
+  </data>
+  <data name="labelSAvlCdt.Text" xml:space="preserve">
+    <value>可用額度</value>
+  </data>
+  <data name="labelSAvlCdt.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelSAvlCdt.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelSMarketValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MingLiU, 9pt, style=Bold</value>
+  </data>
+  <data name="labelSMarketValue.Text" xml:space="preserve">
+    <value>總市值</value>
+  </data>
+  <data name="labelSMarketValue.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelSMarketValue.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueSTotalStock.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 21</value>
+  </data>
+  <data name="labelValueSTotalStock.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueSTotalStock.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueSMarketValue.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueSMarketValue.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelSTotalStock.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MingLiU, 9pt, style=Bold</value>
+  </data>
+  <data name="labelSTotalStock.Location" type="System.Drawing.Point, System.Drawing">
+    <value>178, 21</value>
+  </data>
+  <data name="labelSTotalStock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 15</value>
+  </data>
+  <data name="labelSTotalStock.Text" xml:space="preserve">
+    <value>股份數目</value>
+  </data>
+  <data name="labelSTotalStock.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="labelSTotalStock.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelSTotalStock.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueSUnclearChq.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 22</value>
+  </data>
+  <data name="labelValueSUnclearChq.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueSUnclearChq.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelSUnclearChq.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MingLiU, 9pt, style=Bold</value>
+  </data>
+  <data name="labelSUnclearChq.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="labelSUnclearChq.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 16</value>
+  </data>
+  <data name="labelSUnclearChq.Text" xml:space="preserve">
+    <value>支票存入</value>
+  </data>
+  <data name="labelSUnclearChq.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelSUnclearChq.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueSBalance.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueSBalance.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelSBalance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MingLiU, 9pt, style=Bold</value>
+  </data>
+  <data name="labelSBalance.Text" xml:space="preserve">
+    <value>可用結餘</value>
+  </data>
+  <data name="labelSBalance.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelSBalance.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panelSBalance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>369, 74</value>
+  </data>
+  <data name="panelSBalance.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panelSBalance.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="splitContainer1.Panel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="splitContainer1.Panel1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dataGridViewTextBoxColumn5.HeaderText" xml:space="preserve">
+    <value>股票編號</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dataGridViewTextBoxColumn5.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn8.HeaderText" xml:space="preserve">
+    <value>股票名稱</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn8.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn6.HeaderText" xml:space="preserve">
+    <value>持有股數</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn6.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="dataGridViewPortfolio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>369, 286</value>
+  </data>
+  <data name="dataGridViewPortfolio.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dataGridViewPortfolio.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="splitContainer1.Panel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="splitContainer1.Panel2.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>371, 534</value>
+  </data>
+  <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
+    <value>242</value>
+  </data>
+  <data name="splitContainer1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="splitContainer1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkBoxDetails.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MingLiU, 8.25pt</value>
+  </data>
+  <data name="checkBoxDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 17</value>
+  </data>
+  <data name="checkBoxDetails.Text" xml:space="preserve">
+    <value>詳細</value>
+  </data>
+  <data name="checkBoxDetails.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkBoxDetails.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelAccountNo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MingLiU, 9pt, style=Bold</value>
+  </data>
+  <data name="labelAccountNo.Text" xml:space="preserve">
+    <value>戶口</value>
+  </data>
+  <data name="labelAccountNo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelAccountNo.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelAccName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MingLiU, 9pt, style=Bold</value>
+  </data>
+  <data name="labelAccName.Text" xml:space="preserve">
+    <value>名稱</value>
+  </data>
+  <data name="labelAccName.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelAccName.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueAccName.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueAccName.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueAccType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MingLiU, 9pt, style=Bold</value>
+  </data>
+  <data name="labelValueAccType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueAccType.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelAccChkSum.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelAccChkSum.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelAccTtl.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelAccTtl.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AccountNoComboBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AccountNoComboBox1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueAEName.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueAEName.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueAECode.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueAECode.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueContact.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelValueContact.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxAccountNo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxAccountNo.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panelGeneralInfo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panelGeneralInfo.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonCurrencyTotal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MingLiU, 8.25pt</value>
+  </data>
+  <data name="radioButtonCurrencyTotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 21</value>
+  </data>
+  <data name="radioButtonCurrencyTotal.Text" xml:space="preserve">
+    <value>總折算值</value>
+  </data>
+  <data name="radioButtonCurrencyTotal.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonCurrencyTotal.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panelCurrency.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panelCurrency.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.TabText" xml:space="preserve">
+    <value>帳戶資料</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>帳戶資料</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+</root>
