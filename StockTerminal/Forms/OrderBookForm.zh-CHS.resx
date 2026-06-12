@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelTtlDealPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1044, 0</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>967, 0</value>
+  </data>
+  <data name="labelTtlDealNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>951, 0</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>891, 0</value>
+  </data>
+  <data name="labelTtlOrderPriceVal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>875, 0</value>
+  </data>
+  <data name="labelTtlOrderPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>794, 0</value>
+  </data>
+  <data name="labelTtlOrdersVal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>778, 0</value>
+  </data>
+  <data name="labelTtlOrders.Location" type="System.Drawing.Point, System.Drawing">
+    <value>719, 0</value>
+  </data>
+  <data name="myGroupBoxSrch.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MingLiU, 8.25pt</value>
+  </data>
+  <data name="myGroupBoxSrch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>719, 102</value>
+  </data>
+  <data name="myGroupBoxSrch.Text" xml:space="preserve">
+    <value>搜寻</value>
+  </data>
+  <data name="buttonClrSrchSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>659, 11</value>
+  </data>
+  <data name="buttonClrSrchSetting.Text" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="buttonApplySrchSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>600, 11</value>
+  </data>
+  <data name="buttonApplySrchSetting.Text" xml:space="preserve">
+    <value>采用</value>
+  </data>
+  <data name="comboBoxAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>356, 9</value>
+  </data>
+  <data name="labelSellAvgPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>450, 77</value>
+  </data>
+  <data name="labelSellAvgPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 15</value>
+  </data>
+  <data name="textBoxStkCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>544, 12</value>
+  </data>
+  <data name="labelSellFilled.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 77</value>
+  </data>
+  <data name="labelSellFilled.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 15</value>
+  </data>
+  <data name="labelStkCodeTarget.Location" type="System.Drawing.Point, System.Drawing">
+    <value>488, 15</value>
+  </data>
+  <data name="labelStkCode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MingLiU, 9pt</value>
+  </data>
+  <data name="labelStkCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>450, 15</value>
+  </data>
+  <data name="labelStkCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 12</value>
+  </data>
+  <data name="labelStkCode.Text" xml:space="preserve">
+    <value>股票</value>
+  </data>
+  <data name="labelSellTtlQty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 76</value>
+  </data>
+  <data name="labelSellTtlQty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 15</value>
+  </data>
+  <data name="labelAccTarget.Location" type="System.Drawing.Point, System.Drawing">
+    <value>292, 13</value>
+  </data>
+  <data name="labelAcc.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MingLiU, 9pt</value>
+  </data>
+  <data name="labelAcc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 13</value>
+  </data>
+  <data name="labelAcc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 12</value>
+  </data>
+  <data name="labelAcc.Text" xml:space="preserve">
+    <value>户口</value>
+  </data>
+  <data name="labelBuyAvgPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>450, 56</value>
+  </data>
+  <data name="labelBuyAvgPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 15</value>
+  </data>
+  <data name="labelAETarget.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 14</value>
+  </data>
+  <data name="checkBoxEnableSrch.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MingLiU, 9pt</value>
+  </data>
+  <data name="checkBoxEnableSrch.Text" xml:space="preserve">
+    <value>启动</value>
+  </data>
+  <data name="labelBuyFilled.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 56</value>
+  </data>
+  <data name="labelBuyFilled.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 15</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MingLiU, 9pt</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 38</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 15</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>落盘总数量</value>
+  </data>
+  <data name="labelAE.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MingLiU, 9pt</value>
+  </data>
+  <data name="labelAE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 14</value>
+  </data>
+  <data name="labelAE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 12</value>
+  </data>
+  <data name="labelAE.Text" xml:space="preserve">
+    <value>经纪</value>
+  </data>
+  <data name="labelBuyTtlQty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 55</value>
+  </data>
+  <data name="labelBuyTtlQty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 15</value>
+  </data>
+  <data name="comboBoxAE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 12</value>
+  </data>
+  <data name="labelBuy.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MingLiU, 9pt</value>
+  </data>
+  <data name="labelBuy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 55</value>
+  </data>
+  <data name="labelBuy.Text" xml:space="preserve">
+    <value>买</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MingLiU, 9pt</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>450, 39</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 15</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>平均价</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MingLiU, 9pt</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 76</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>卖</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MingLiU, 9pt</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 39</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 15</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>已成交量</value>
+  </data>
+  <data name="comboBoxShowEx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 0</value>
+  </data>
+  <data name="panelChkBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 94</value>
+  </data>
+  <data name="checkBoxGrayStock.Location" type="System.Drawing.Point, System.Drawing">
+    <value>378, 0</value>
+  </data>
+  <data name="checkBoxGrayStock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 18</value>
+  </data>
+  <data name="checkBoxGrayStock.Text" xml:space="preserve">
+    <value>暗盤</value>
+  </data>
+  <data name="labelXchg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>347, 0</value>
+  </data>
+  <data name="labelXchg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 16</value>
+  </data>
+  <data name="labelXchg.Text" xml:space="preserve">
+    <value>交所</value>
+  </data>
+  <data name="checkBoxShowDeal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MingLiU, 9pt</value>
+  </data>
+  <data name="checkBoxShowDeal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 0</value>
+  </data>
+  <data name="checkBoxShowDeal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 18</value>
+  </data>
+  <data name="checkBoxShowDeal.Text" xml:space="preserve">
+    <value>详细交易记录</value>
+  </data>
+  <data name="checkBoxShowAEOrders.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MingLiU, 9pt</value>
+  </data>
+  <data name="checkBoxShowAEOrders.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 0</value>
+  </data>
+  <data name="checkBoxShowAEOrders.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 18</value>
+  </data>
+  <data name="checkBoxShowAEOrders.Text" xml:space="preserve">
+    <value>经纪盘</value>
+  </data>
+  <data name="checkBoxShowInternetOrders.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MingLiU, 9pt</value>
+  </data>
+  <data name="checkBoxShowInternetOrders.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 0</value>
+  </data>
+  <data name="checkBoxShowInternetOrders.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 18</value>
+  </data>
+  <data name="checkBoxShowInternetOrders.Text" xml:space="preserve">
+    <value>网上盘</value>
+  </data>
+  <data name="checkBoxShowSearch.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MingLiU, 9pt</value>
+  </data>
+  <data name="checkBoxShowSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 18</value>
+  </data>
+  <data name="checkBoxShowSearch.Text" xml:space="preserve">
+    <value>搜寻</value>
+  </data>
+  <data name="labelPlacedBy.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MingLiU, 9pt</value>
+  </data>
+  <data name="labelPlacedBy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 12</value>
+  </data>
+  <data name="labelPlacedBy.Text" xml:space="preserve">
+    <value>用户 (最后更新)</value>
+  </data>
+  <data name="labelCurrency.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 8</value>
+  </data>
+  <data name="buttonGetTransacCharge.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MingLiU, 9pt</value>
+  </data>
+  <data name="buttonGetTransacCharge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 24</value>
+  </data>
+  <data name="buttonGetTransacCharge.Text" xml:space="preserve">
+    <value>查询手续费</value>
+  </data>
+  <data name="labelTransacChargeVal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 8</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabControlOrders.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>未完成</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>已完成 / 已取消</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>已回复</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>所有纪录</value>
+  </data>
+  <data name="$this.TabText" xml:space="preserve">
+    <value>落盘记录</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>落盘记录</value>
+  </data>
+</root>
